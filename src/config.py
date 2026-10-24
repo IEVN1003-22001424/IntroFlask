@@ -4,6 +4,7 @@ class DevelopmentConfig():
     MYSQL_USER = 'Minecraft'
     MYSQL_PASSWORD = 'root'
     MYSQL_DB = 'api_utl'
+    MySQL_CURSORCLASS = 'Cursor' 
 
 config = {
     'development': DevelopmentConfig
